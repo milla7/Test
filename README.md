@@ -24,4 +24,4 @@ $ php artisan server
 ```
 4. La documentación del api se puede visualizar ingresando al ruta raiz del proyecto: localhost:8000/
 
-**Nota:** El usuario y contraseña para gener el toke es: test@gmail.com 123456. De igual manera se importara un archivo sql con la bd en caso de tener problemas con las migraciones y seeders, este archivo esta dentro de la carpeta bd
+**Nota:** El usuario y contraseña para generar el token es: test@gmail.com 123456. De igual manera se importara un archivo sql con la bd en caso de tener problemas con las migraciones y seeders, este archivo esta dentro de la carpeta bd
