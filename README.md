@@ -20,7 +20,7 @@
 $ composer install
 $ php artisan key:generate
 $ php artisan migrate --seed
-$ php artisan server 
+$ php artisan serve
 ```
 4. La documentación del api se puede visualizar ingresando al ruta raiz del proyecto: localhost:8000/
 
