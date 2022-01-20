@@ -61,7 +61,7 @@
             2:  ESTE TOKEN SE CREA LUEGO QUE INICIA SESION POR CADA USUARIO</p>
         </div>
         <div class="overflow-hidden content-section" id="content-login">
-            <h2 id="login">Iniciar Sesión</h2>
+            <h2 id="login">Login</h2>
             <pre><code class="bash">
 # Petición
 curl \
@@ -78,14 +78,12 @@ curl \
 Respuesta Success Usuario:
 
 {
-    "success": false,
-    "errors": {
-        "email": [
-            "The email field is required."
-        ],
-        "password": [
-            "The password field is required."
-        ]
+    "success": true,
+    "data": {
+        "id": 1,
+        "email": "test@gmail.com",
+        "access_token": "2|G5vzcjvsahPX1o1HhTenAUwlh7hIM5OblKv79Pnq",
+        "token_type": "Bearer"
     }
 }
 
@@ -133,7 +131,7 @@ Respuesta Error:
 
 
 <div class="overflow-hidden content-section" id="content-logout">
-    <h2 id="logout">Logout Usuario</h2>
+    <h2 id="logout">Logout</h2>
     <pre><code class="bash">
 # Petición
 curl \
